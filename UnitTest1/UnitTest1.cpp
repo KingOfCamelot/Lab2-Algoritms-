@@ -41,19 +41,19 @@ namespace UnitTest1
 		{
 			int const size = 26;
 			char alphabet[size] = { 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z' };
-			char array[size] = { 'a','g','m','b','h','n','c','i','o','d','j','p','e','k','q','f','l','r','s','x','t','y','u','z','w','v' };
+			char array[size] = { 'v','g','m','b','h','n','c','i','o','d','j','p','e','k','q','f','l','r','s','x','t','y','u','z','w','a' };
 			Algoritms test;
 			test.CountingSort(array, size);
 			for (int i = 0; i < size; ++i) Assert::AreEqual(alphabet[i], array[i]);
 		}
 		TEST_METHOD(BinarySearch)
 		{
-			int const size = 5;
-			int array[size] = { 1,2,3,4,5 };
+			int const size = 6;
+			int array[size] = { 1,2,3,4,5,6 };
 			Algoritms test;
-			int Num = 3;
+			int Num = 4;
 			test.BinarySearch(array, Num, 0, size);
-			Assert::AreEqual(2, Num);
+			Assert::AreEqual(3, Num);
 		}
 	};
 }

@@ -1,4 +1,7 @@
 ﻿  Source.cpp
-C:\Users\Артур\Desktop\АиСД\2\lab2\lab2\Source.cpp(119,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-     Создается библиотека C:\Users\Артур\Desktop\АиСД\2\lab2\x64\Debug\UnitTest1.lib и объект C:\Users\Артур\Desktop\АиСД\2\lab2\x64\Debug\UnitTest1.exp
-  UnitTest1.vcxproj -> C:\Users\Артур\Desktop\АиСД\2\lab2\x64\Debug\UnitTest1.dll
+C:\Users\Артур\Desktop\АиСД\2\lab2\lab2\Source.cpp(111,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Артур\Desktop\АиСД\2\lab2\lab2\Source.cpp(120,61): warning C4138: "*/" найден вне комментария
+C:\Users\Артур\Desktop\АиСД\2\lab2\lab2\Source.cpp(120,62): error C2059: синтаксическая ошибка: /
+C:\Users\Артур\Desktop\АиСД\2\lab2\lab2\Source.cpp(121,22): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\Артур\Desktop\АиСД\2\lab2\lab2\Source.cpp(121,128): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Users\Артур\Desktop\АиСД\2\lab2\lab2\Source.cpp(127,24): error C2065: alphabet: необъявленный идентификатор
