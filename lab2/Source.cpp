@@ -40,6 +40,7 @@ using namespace std;
 		clock_t end = clock();
 		float secs = float(end-begin) / CLOCKS_PER_SEC;
 		cout << "BubbleSort: " << setprecision(10) << secs << endl;
+		cout << secs;
 	}
 	void Algoritms::BogoSort(int ClassArray[], int SizeArray)
 	{
