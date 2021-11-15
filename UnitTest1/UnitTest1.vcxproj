@@ -156,11 +156,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\lab2\Source.cpp" />
-    <ClCompile Include="UnitTest1.cpp" />
+    <ClCompile Include="..\lab2\main.cpp" />
+    <ClCompile Include="TestsForAlgoritms.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\lab2\Header.h" />
+    <ClInclude Include="..\lab2\FunctionHeaders.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\lab2\lab2.vcxproj">
